@@ -1,12 +1,16 @@
 package main
 
 import (
+	"fmt"
 	"net/http"
 	"strconv"
 
-	"github.com/gin-gonic/gin"
+	 "github.com/gin-gonic/gin"
 )
 
+func prathiksha() {
+	fmt.Println("Pratii kshanaa kandaga ninnanuu adeno eno eno agideeee")
+}
 func main() {
 	r := gin.Default()
 
